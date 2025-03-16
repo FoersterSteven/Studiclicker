@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "606250429658",
+    "project_id": "studiclicker",
+    "storage_bucket": "studiclicker.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606250429658:android:95f76882170110323609e3",
+        "android_client_info": {
+          "package_name": "com.example.studiclicker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCn98zUNQA164l1nMfwEe_vggHppknx2vE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

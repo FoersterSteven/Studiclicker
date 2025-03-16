@@ -1,0 +1,35 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/TitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Studiclicker"
+        android:textAlignment="center"
+        android:textSize="48sp"
+        android:layout_above="@+id/statsText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="150dp"
+        />
+
+    <TextView
+        android:id="@+id/statsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stats werden hier angezeigt"
+        android:textSize="20sp"
+        android:layout_centerInParent="true" />
+    <Button
+        android:id="@+id/returnButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zurück"
+        android:layout_below="@id/statsText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+</RelativeLayout>

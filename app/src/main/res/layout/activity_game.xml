@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/TitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Studiclicker"
+        android:textAlignment="center"
+        android:textSize="48sp"
+        android:layout_above="@+id/counterText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        />
+
+    <TextView
+        android:id="@+id/counterText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Studicoin: 0"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/clickButton" />
+
+
+
+    <ImageView
+        android:id="@+id/clickButton"
+        android:layout_width="181dp"
+        android:layout_height="207dp"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:clickable="true"
+        android:contentDescription="Click to earn Studicoin"
+        android:focusable="true"
+        android:src="@drawable/designer" />
+
+    <Button
+        android:id="@+id/upgradeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upgrades"
+        android:layout_below="@id/clickButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/statsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stats"
+        android:layout_below="@id/upgradeButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/menuButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main Menu"
+        android:layout_below="@id/statsButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+
+</RelativeLayout>

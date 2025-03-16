@@ -1,0 +1,66 @@
+<!-- Settings Screen Layout -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/TitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Studiclicker"
+        android:textAlignment="center"
+        android:textSize="48sp"
+        android:layout_above="@+id/EmailInput"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        />
+
+    <EditText
+        android:id="@+id/EmailInput"
+        android:layout_width="179dp"
+        android:layout_height="60dp"
+        android:hint="Email-Adress"
+        android:layout_above="@id/RepeatEmailInput"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        />
+
+    <EditText
+        android:id="@+id/RepeatEmailInput"
+        android:layout_width="179dp"
+        android:layout_height="60dp"
+        android:hint="Repeat Email-Adress"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="16dp"
+        />
+
+    <EditText
+        android:id="@+id/PasswordInput"
+        android:layout_width="179dp"
+        android:layout_height="60dp"
+        android:hint="Password"
+        android:layout_below="@id/RepeatEmailInput"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_below="@id/PasswordInput"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Just wanna login? Click here"
+        android:layout_below="@id/registerButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp" />
+
+</RelativeLayout>

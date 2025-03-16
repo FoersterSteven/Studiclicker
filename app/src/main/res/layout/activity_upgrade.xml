@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/TitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Studiclicker Upgrades"
+        android:textAlignment="center"
+        android:textSize="48sp"
+        android:layout_above="@+id/errorText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp" />
+
+    <TextView
+        android:id="@+id/errorText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF0000"
+        android:textSize="18sp"
+        android:visibility="invisible"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/infoText1"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/infoText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click Upgrades"
+        android:textSize="16sp"
+        android:layout_above="@id/upgradeButton"
+        android:layout_centerHorizontal="true"
+         />
+
+    <TextView
+        android:id="@+id/infoText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Passive Upgrades"
+        android:textSize="16dp"
+        android:layout_above="@id/passiveUpgradeButton1"
+        android:layout_centerHorizontal="true"
+         />
+    <Button
+        android:id="@+id/upgradeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upgrade für 10 Coins"
+        android:layout_above="@id/passiveUpgradeButton1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/passiveUpgradeButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Passives Einkommen1 kaufen"
+        android:layout_above="@id/passiveUpgradeButton2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Zentraler Button in der Mitte des Screens -->
+    <Button
+        android:id="@+id/passiveUpgradeButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Passives Einkommen2 kaufen"
+        android:layout_centerInParent="true" />
+
+    <Button
+        android:id="@+id/passiveUpgradeButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Passives Einkommen3 kaufen"
+        android:layout_below="@id/passiveUpgradeButton2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/passiveUpgradeButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Passives Einkommen4 kaufen"
+        android:layout_below="@id/passiveUpgradeButton3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/passiveUpgradeButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Passives Einkommen5 kaufen"
+        android:layout_below="@id/passiveUpgradeButton4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/returnButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zurück"
+        android:layout_below="@id/passiveUpgradeButton5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+</RelativeLayout>
